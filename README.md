@@ -1,3 +1,8 @@
 # Jenkins_studY
 
- **start jenkins-lts services via brew on macOS**: brew services start jenkins-lts
+## Trigger Jenkins builds by pushing to Github
+
+
+## Jenkins build shell command
+
+**start jenkins-lts services via brew on macOS**: brew services start jenkins-lts
