@@ -1,7 +1,8 @@
 const express = require('express')
 const app = express()
 
-app.get('/', (req, res) => res.send('Triggered'))
+app.use(express.static(__dirname + '/public'))
+
 
 var server = app.listen(7777, () => {
     console.log("Listening on port " + server.address().port + "...");

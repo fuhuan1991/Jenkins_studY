@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="card" onclick="activate()">
+        <div class="back"></div>
+        <div class="front">
+          <div class="cover-shape-large">
+            <div class="shape-diamond"></div>
+            <div class="shape-block"></div>
+          </div>
+          <div class="cover-shape-small">
+            <div class="shape-diamond"></div>
+            <div class="shape-block">
+              <div class="cake">
+                <div class="layer layer-bottom"></div>
+                <div class="layer layer-middle"></div>
+                <div class="layer layer-top"></div>
+                <div class="icing"></div>
+                <div class="drip drip1"></div>
+                <div class="drip drip2"></div>
+                <div class="drip drip3"></div>
+                <div class="candle">
+                  <div class="flame"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="text-container">
+          <p id="head">Happy Birthday, Iris</p>
+          <p id="head">生日快乐， 李佳殷</p>
+          <p>hope you can get everything you want! </p>
+        </div>
+
+        <div class="cake3d">
+            <span class="e1"></span>
+            <span class="e2"></span>
+            <span class="e3"></span>
+            <span class="e4"></span>
+            <span class="e5"></span>
+            <span class="e6"></span>
+            <span class="e7"></span>
+            <span class="e8"></span>
+            <span class="e9"></span>
+            <span class="e10"></span>
+            <span class="e11"></span>
+        </div>
+
+
+    </div>
+    <script>
+        const card = document.querySelector(".card")
+        function activate() {
+            card.classList.toggle("activited");
+        }
+    </script>
+</body>
+</html>
